@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <div className="flex w-full justify-center bg-gray-900 py-5 text-sm text-gray-400">
+    <div className="flex w-full justify-center py-5 text-sm text-gray-400">
       <div className="mx-3 flex w-full max-w-screen-2xl flex-col items-center justify-between gap-3 text-center md:flex-row">
         <p className="w-[245px]">
           ©{new Date().getFullYear()} Botnatic - All rights reserved.
