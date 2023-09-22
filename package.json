@@ -6,7 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write app --ignore-unknown && prettier --write components --ignore-unknown && prettier --write lib --ignore-unknown"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "semi": true,
+    "tabWidth": 2,
+    "singleQuote": false,
+    "plugins": [
+      "prettier-plugin-tailwindcss"
+    ]
   },
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.0",
@@ -27,5 +37,8 @@
     "tailwindcss": "3.3.3",
     "tailwindcss-animate": "^1.0.7",
     "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.5.4"
   }
 }
