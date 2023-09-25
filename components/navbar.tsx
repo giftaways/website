@@ -1,6 +1,5 @@
 import { Button } from "./ui/button";
 import Image from "next/image";
-import { DiscordLogoIcon } from "@radix-ui/react-icons";
 
 export const Navbar = () => {
   return (

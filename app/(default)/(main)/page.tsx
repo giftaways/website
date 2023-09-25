@@ -12,20 +12,20 @@ export default function Home() {
         <div className="flex h-full w-full max-w-screen-2xl flex-col items-center justify-between gap-6 p-3 md:flex-row">
           <div className="flex w-full justify-center">
             <div className="flex max-w-xl flex-col gap-6">
-              <p className="text-4xl font-semibold">
-                <div className="flex pb-1">
-                  Simplify
-                  <span className="pl-2 text-orange-300">
-                    <Typewriter
-                      options={{
-                        delay: 100,
-                        strings: ["hosting", "managing"],
-                        autoStart: true,
-                        loop: true,
-                      }}
-                    />
-                  </span>
-                </div>
+              <div className="flex pb-1 text-4xl font-semibold">
+                <p>Simplify</p>
+                <span className="pl-2 text-orange-300">
+                  <Typewriter
+                    options={{
+                      delay: 100,
+                      strings: ["hosting", "managing"],
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
+                </span>
+              </div>
+              <p className="-mt-6 text-4xl font-semibold">
                 Giveaways on Discord
               </p>
               <p>
