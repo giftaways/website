@@ -26,4 +26,4 @@ If you don't understand something in the documentation, you are experiencing pro
 
 ## License
 
-This project is licensed under the [GPLv3 license](https://github.com/giftaways/website/LICENSE).
+This project is licensed under the [GPLv3 license](https://github.com/giftaways/website/blob/master/LICENSE).
