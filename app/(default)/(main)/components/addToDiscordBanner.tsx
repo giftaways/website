@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { DiscordLogoIcon } from "@radix-ui/react-icons";
+import Link from "next/link";
 
 export const AddToDiscordBanner = () => {
   return (
@@ -9,10 +10,12 @@ export const AddToDiscordBanner = () => {
           Invite Giftaways and make hosting and managing Giveaways easier then
           ever
         </p>
-        <Button variant="secondary" className="flex gap-3">
-          <DiscordLogoIcon className="scale-150" />
-          Add to Discord
-        </Button>
+        <Link href="/invite">
+          <Button variant="secondary" className="flex gap-3">
+            <DiscordLogoIcon className="scale-150" />
+            Add to Discord
+          </Button>
+        </Link>
       </div>
     </div>
   );
