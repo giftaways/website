@@ -18,7 +18,7 @@ npm run dev
 
 ## Contributing
 
-Please read through our [contribution guidelines](https://github.com/giftaways/website/.github/CODE_OF_CONDUCT.md) before starting a pull request. We welcome contributions of all kinds!
+Please read through our [contribution guidelines](https://github.com/giftaways/website/blob/master/.github/CODE_OF_CONDUCT.md) before starting a pull request. We welcome contributions of all kinds!
 
 ## Help
 
