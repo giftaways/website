@@ -4,6 +4,7 @@ import { AddToDiscordBanner } from "./components/addToDiscordBanner";
 import { ExternalLinkIcon } from "@radix-ui/react-icons";
 import Typewriter from "typewriter-effect";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -33,10 +34,12 @@ export default function Home() {
                 server? Look no further! Giftaways is the ultimate solution for
                 giveaway management.
               </p>
-              <Button className="flex items-center gap-2 self-start">
-                <ExternalLinkIcon className="h-4 w-4" />
-                Invite Giftaways
-              </Button>
+              <Link href="/invite">
+                <Button className="flex items-center gap-2 self-start">
+                  <ExternalLinkIcon className="h-4 w-4" />
+                  Invite Giftaways
+                </Button>
+              </Link>
             </div>
           </div>
           <div className="flex w-full justify-center">
