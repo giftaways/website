@@ -13,7 +13,9 @@ export const Navbar = () => {
           </div>
         </Link>
         <div className="flex gap-6">
-          <Button className="flex gap-3">Support Server</Button>
+          <Link href="/support">
+            <Button className="flex gap-3">Support Server</Button>
+          </Link>
         </div>
       </div>
     </div>
