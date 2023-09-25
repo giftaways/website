@@ -11,13 +11,7 @@ export const Navbar = () => {
           <p className="text-lg font-bold">Giftaways</p>
         </div>
         <div className="flex gap-6">
-          <Button className="hidden gap-3 sm:flex" variant="ghost">
-            Support
-          </Button>
-          <Button className="flex gap-3">
-            <DiscordLogoIcon className="scale-150" />
-            Add to Discord
-          </Button>
+          <Button className="flex gap-3">Support Server</Button>
         </div>
       </div>
     </div>

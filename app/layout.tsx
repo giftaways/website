@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Giftaways",
-  description: "Simplify hosting and managing your giveaways",
+  description: "Simplify hosting and managing your giveaways on Discord",
 };
 
 export default function RootLayout({
